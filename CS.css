@@ -1,129 +1,27 @@
-body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6; /* Improves readability */
-    color: black; /* Darker text color for better contrast */
+h1 {
+    text-align: center;
+    }
+.content{
     
-}
-
-header {
-    background-color: #333;
-    color: white;
-    padding: 1em 0;
-    text-align: center;
-}
-
-.ege {
-    width: 50px;
-    height: 50px;
-    display: block;
-    margin: 0 auto; /* Center the logo */
-    
-}
-
-#menu ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
-
-#menu li {
-    display: inline;
-    margin: 0 10px;
-}
-
-#menu a {
-    text-decoration: none;
-    color: white;
-}
-
-.content {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #4682B4; /* Light-blue background */
-    border-radius: 10px; /* Rounded corners for better visual appeal */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-
-h1, h2, h3, h4 {
-    color: #fff; /* White text on blue background */
-    text-align: left; /* Align headings to left for clarity */
-    margin-bottom: 10px; /* Adds space under headings */
-}
-
-
-/* Make the text easier to read on the background */
-p {
-    color: black;
-    font-size: 1.1em; /* Adjust as needed */
-}
-
-hr {
-    border: 1px solid #ccc;
-    margin: 10px 0;
-}
-
-
-.omlet {
-    width: 300px;
-    height: auto; /* Preserve aspect ratio */
-    float: right;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    /* Removed bottom and right margin adjustments as they were breaking the layout */
-    border: 1px solid #ccc; /* Optional border */
-    border-radius: 5px;
-    /* optional: Better than float. */
-}
-
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1em 0;
-}
-
-footer img {
-  width: 80px;
-  height: auto; /* Preserve aspect ratio */
-  display: block;
-  margin: 0 auto; /* Centers the image */
-}
-
-/* Responsive Styles */
-@media (max-width: 768px) {
-    .content {
-        max-width: 95%;
-        margin: 10px;
-        padding: 10px;
-    }
-    .omlet {
-        float: none;
-        margin: 10px auto;
-        width: 90%;
-    }
-
-   
-    #menu li {
-        display: block;
-        margin: 5px 0;
-    }
-    #menu ul {
-      text-align: center;
-    }
-}
-
-
-html {
+          color: black ;
+          background-color:#4682B4;
+        }
+html{
     background-image: url(image/fon.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    background-size: cover;
-    
-}
+    background-size: cover; ;
+    }
+.ege{
+    width: 50px;
+    height: 50px;
+    }
+.omlet{
+        width: 300px;
+        height: 300px;
+        float: right;
+        position: relative;
+        right: 140px ;
+        bottom: 70px;
+       }
