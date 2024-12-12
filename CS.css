@@ -35,13 +35,10 @@ html{
         main {
           padding: 0.5rem;
         }
-        .style-sections {
-          padding: 0.5rem;
-        }
         img {
           margin: 0.5rem auto;
         }
-        .image-container img {
+        .omlet img {
           max-width: 10rem;
         }
       }
