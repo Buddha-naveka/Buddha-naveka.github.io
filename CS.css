@@ -25,3 +25,41 @@ html{
         right: 140px ;
         bottom: 70px;
        }
+@media (max-width: 768px) {
+        h1 {
+          font-size: 2rem;
+        }
+        h2 {
+          font-size: 1.5rem;
+        }
+        main {
+          padding: 0.5rem;
+        }
+        .style-sections {
+          padding: 0.5rem;
+        }
+        img {
+          margin: 0.5rem auto;
+        }
+        .image-container img {
+          max-width: 10rem;
+        }
+      }
+      
+      @media (max-width: 480px) {
+        h1 {
+          font-size: 1.5rem;
+        }
+        h2 {
+          font-size: 1.25rem;
+        }
+        main {
+          padding: 0.25rem;
+        }
+        .style-sections {
+          padding: 0.25rem;
+        }
+          img {
+          margin: 0.25rem auto;
+        }
+      }
