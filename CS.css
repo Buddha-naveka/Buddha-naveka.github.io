@@ -35,11 +35,15 @@ html{
         main {
           padding: 0.5rem;
         }
-       
+        .style-sections {
+          padding: 0.5rem;
+        }
         img {
           margin: 0.5rem auto;
         }
-        
+        .image-container img {
+          max-width: 10rem;
+        }
       }
       
 @media (max-width: 480px) {
@@ -52,7 +56,9 @@ html{
         main {
           padding: 0.25rem;
         }
-    
+        .style-sections {
+          padding: 0.25rem;
+        }
           img {
           margin: 0.25rem auto;
         }
