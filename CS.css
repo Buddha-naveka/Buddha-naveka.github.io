@@ -26,9 +26,7 @@ html{
         bottom: 70px;
        }
 @media (max-width: 768px) {
-        html{
-        padding: 0.5rem;
-        }
+        
         h1 {
           font-size: 2rem;
         }
